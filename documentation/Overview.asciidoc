@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Información General
 order: 1
 layout: page
 ---
@@ -7,28 +7,25 @@ layout: page
 ifdef::env-github[:outfilesuffix: .asciidoc]
 = Vaadin Flow
 
-Vaadin Flow is a new Java web framework for building modern web apps and websites.
-It is part of the Vaadin Platform and a successor for the Vaadin Framework bringing Web Component support to Java users.
-Flow allows developers to be super productive by creating UIs in Java or
-by using HTML Templates for composing the UI and binding it to any backend using Java.
+Vaadin Flow es un nuevo framework web Java para construir aplicaciones y sitios web modernos. Es parte de la Plataforma Vaadin y un sucesor para el Framework Vaadin que brinda soporte con Componentes Web a los usuarios Java. Flow permite a los desarrolladores ser súper productivos creando interfaces de usuario en Java o al utilizar Plantillas HTML para componer la interfaz de usuario y vincularla a cualquier backend que utilice Java.
 
-The power of Vaadin Flow comes from the following concepts:
+El poder de Vaadin Flow proviene de los siguientes conceptos:
 
-* A set of beautiful UI components build with focus on end-user and developer experience
-* Powerful abstraction layers for easily building your own reusable UI components with either Java or HTML templates
-* Data Binding API for connecting the UI components to any backend using type safe Java
-* Router API for easily creating hierarchical page structures for the user to navigate
+* Crear un hermoso conjunto de componentes de interfaz de usuario con enfoque en el usuario final y la experiencia del desarrollador
+* Potentes capas de abstracción para construir fácilmente sus propios componentes de interfaz de usuario reutilizables con plantillas Java o HTML
+* API de Enlace de Datos para conectar los componentes de la interfaz de usuario a cualquier backend utilizando Java tipado seguro
+* API de enrutador para crear fácilmente estructuras jerárquicas de página para que el usuario pueda navegar
 
-This is the documentation for Vaadin Flow. It is divided into the following subsections in recommended reading order.
+Esta es la documentación para Vaadin Flow. Se divide en las siguientes subsecciones en el orden de lectura recomendado.
 
-== Introduction and Getting Started
+== Introducción y Primeros Pasos
 ** <<introduction/introduction-overview#,Introduction to Vaadin Flow>>
 ** <<introduction/tutorial-get-started#,Getting Started>>
 
-== Router and Navigation
-Router is a core concept in Vaadin Flow, enabling Navigation for your website or web app.
-It is based on HTML5 History API, and makes it possible to for the user to navigate pages back and forward,
-and keep the page state intact. The following tutorials explain how to use the Router:
+== Enrutador y Navegación
+El enrutador es un concepto central en Vaadin Flow, que permite la navegación de su sitio o aplicación web.
+Se basa en la API de Historial de HTML5 y permite al usuario navegar por las páginas hacia adelante y hacia atrás,
+y mantener el estado de la página intacto. Los siguientes tutoriales explican cómo utilizar el enrutador:
 
 * <<routing/tutorial-routing-annotation#,Defining Routes with @Route>>
 * <<routing/tutorial-routing-lifecycle#,Navigation Lifecycle>>
@@ -40,33 +37,33 @@ and keep the page state intact. The following tutorials explain how to use the R
 * <<routing/tutorial-routing-exception-handling#,Router Exception Handling>>
 * <<routing/tutorial-routing-get-registered-routes#,Getting Registered Routes>>
 
-== Using Vaadin Components
+== Usando los Componentes Vaadin
 * <<components/tutorial-flow-components-setup#,Using Vaadin Components>>
 * <<components/tutorial-component-basic-features#,Component Basic Features>>
 * <<components/tutorial-enabled-state#, Component Enabled State>>
 * <<components/tutorial-flow-grid#,Grid>>
 * <<components/tutorial-flow-icon#,Using Icons>>
 
-== Binding Data to Components
+== Vinculando Datos a Componentes
 * <<binding-data/tutorial-flow-components-binder#,Binder overview>>
 * <<binding-data/tutorial-flow-components-binder-validation#,Validating and Converting User Input>>
 * <<binding-data/tutorial-flow-components-binder-load#,Loading from and Saving to Business Objects>>
 * <<binding-data/tutorial-flow-components-binder-beans#,Binding Beans to Forms>>
 * <<binding-data/tutorial-flow-data-provider#,Showing a list of data with Data Providers>>
 
-== Importing HTML, JavaScript and CSS files
+== Importando HTML, JavaScript y CSS
 * <<importing-dependencies/tutorial-include-css#,Including Style Sheets>>
 * <<importing-dependencies/tutorial-importing#,Importing html/javascript>>
 * <<importing-dependencies/tutorial-ways-of-importing#,Ways of importing the dependencies>>
 
-== Theming Applications
+== Estilizando Aplicaciones
 * <<theme/theming-overview#,Theming Overview>>
 * <<theme/using-component-themes#,Using Component Themes>>
 * <<theme/application-theming-basics#,Application Theming Basics>>
 * <<theme/theming-crash-course#,Theming Crash Course>>
 * <<theme/integrating-component-theme#,Integrating Your Own Component Theme>>
 
-== Creating Components
+== Creando Componentes
 * <<creating-components/tutorial-component-basic#,Creating A Simple Component Using the Element API>>
 * <<creating-components/tutorial-component-many-elements#,Creating a Component Based on Many Elements>>
 * <<creating-components/tutorial-component-property-descriptor#,Using API Helpers for Defining Component Properties>>
@@ -75,21 +72,21 @@ and keep the page state intact. The following tutorials explain how to use the R
 * <<creating-components/tutorial-component-container#,Creating a Component Which Can Contain Other Components>>
 * <<creating-components/tutorial-component-lifecycle-callbacks#,Component Lifecycle Callbacks>>
 
-== Manipulating DOM with Element API
+== Manipulando el DOM con la API Element
 * <<element-api/tutorial-properties-attributes#,Element Properties and Attributes>>
 * <<element-api/tutorial-event-listener#,Listening to User Events>>
 * <<element-api/tutorial-user-input#,Retrieving User Input>>
 * <<element-api/tutorial-dynamic-styling#,Dynamic styling>>
 * <<element-api/tutorial-shadow-root#,Shadow root in server-side Element>>
 
-== Integrating Web Components
+== Integrando Componentes Web
 * <<web-components/integrating-a-web-component.asciidoc,Integrating a Web Component>>
 * <<web-components/creating-java-api-for-a-web-component.asciidoc,Creating Java API for a Web Component>>
 * <<web-components/debugging-a-web-component-integration.asciidoc,Debugging a Web Component Integration>>
 * <<web-components/creating-another-type-of-addon.asciidoc,Debugging a Web Component Integration>>
 * <<web-components/creating-an-in-project-web-component.asciidoc,Creating an In-project Web Component>>
 
-== Creating Polymer Templates
+== Creando Plantillas Polymer
 * <<polymer-templates/tutorial-template-basic#,Creating A Simple Component Using the Template API>>
 * <<polymer-templates/tutorial-template-components#,Binding Components from PolymerTemplate>>
 * <<polymer-templates/tutorial-template-subtemplate#,Using sub-template from PolymerTemplate>>
@@ -101,7 +98,7 @@ and keep the page state intact. The following tutorials explain how to use the R
 * <<polymer-templates/tutorial-template-model-bean#,Using Beans with a PolymerTemplate Model>>
 * <<polymer-templates/tutorial-template-model-encoders#,Using Model Encoders with a PolymerTemplate Model>>
 
-== Using Vaadin with Spring
+== Usando Vaadin con Spring
 * <<spring/tutorial-spring-basic#,Use Vaadin with Spring>>
 * <<spring/tutorial-spring-basic-mvc#,Use Vaadin with Spring MVC>>
 * <<spring/tutorial-spring-routing#,Routing with Spring>>
@@ -109,12 +106,12 @@ and keep the page state intact. The following tutorials explain how to use the R
 * <<spring/tutorial-spring-configuration#,Vaadin Spring Configuration>>
 * <<spring/tutorial-spring-examples#,Getting Started with Spring and Vaadin>>
 
-== Packaging for Production
+== Empaquetando para Producción
 * <<production/tutorial-production-mode-basic#,Taking your Application into Production>>
 * <<production/tutorial-production-mode-customising#,Customising Bundling>>
 * <<production/tutorial-production-mode-advanced#,Advanced production mode topics>>
 
-== Migrating from Vaadin 8 to Vaadin 10
+== Migrando de Vaadin 8 a Vaadin 10
 * <<migration/1-migrating-v8-v10#,Migrating from Vaadin 8 to Vaadin 10>>
 * <<migration/2-migration-strategies#,Migration Strategies>>
 * <<migration/3-general-differences#,Differences between Vaadin 10 and Vaadin 8 Applications>>
@@ -126,7 +123,7 @@ and keep the page state intact. The following tutorials explain how to use the R
 * <<migration/6-theming#,Themes and Theming Applications>>
 * <<migration/7-tools-integrations#,Add-ons, Integrations and Tools>>
 
-== Advanced Topics
+== Temas Avanzados
 * <<advanced/tutorial-application-lifecycle#,Application Lifecycle>>
 * <<advanced/tutorial-i18n-localization#,Application Localization (I18N)>>
 * <<advanced/tutorial-bootstrap#,Modifying the bootstrap page>>
